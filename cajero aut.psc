@@ -5,7 +5,7 @@ Algoritmo cajero
 		Escribir "Escribe la contraseña"
 		leer contraseña
 		
-		si contraseña == "abc" Entonces
+		si contraseña == "123456" Entonces
 			contador = 4
 			respuesta = 0
 			Mientras respuesta <> 4 Hacer
