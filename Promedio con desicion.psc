@@ -1,6 +1,6 @@
 Algoritmo Promedio
 	
-	Definir a,b,c,d,e,f,g,suma,Prom Como Real;
+	Definir a,b,c,d,e,f,g,Suma,Prom Como Real;
 	Definir Alumno Como Caracter;
 	Escribir "Bienvenido al calculador de promedios"
 	Escribir "-------------------------------------"
@@ -20,15 +20,15 @@ Algoritmo Promedio
 	Leer f;
 	Escribir "Ingrese la nota de Simulacion";
 	Leer g;
-	suma = a+b+c+d+e+f+g;
+	Suma = a + b + c + d + e + f + g;
 	Prom = suma/7;
 	
 	Escribir "El promedio de las notas de: ", Alumno, " es: " , Prom;
 	
 	Si Prom >= 6 Entonces
-		Escribir Alumno "Aprobo el curso"
+		Escribir Alumno " Aprobo el curso"
 	SiNo
-		Escribir Alumno "No aprobo el curso"
+		Escribir Alumno " No aprobo el curso"
 	FinSi
 	
 FinAlgoritmo
