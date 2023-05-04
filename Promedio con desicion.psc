@@ -22,7 +22,6 @@ Algoritmo Promedio
 	Leer g;
 	Suma = a + b + c + d + e + f + g;
 	Prom = suma/7;
-	
 	Escribir "El promedio de las notas de: ", Alumno, " es: " , Prom;
 	
 	Si Prom >= 6 Entonces
